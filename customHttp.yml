@@ -1,5 +1,5 @@
 customHeaders:
-  - pattern: '**'
+  - pattern: 'index.html'
     headers:
       - key: Cache-Control
         value: 'public, max-age=10, s-maxage=30, must-revalidate'
