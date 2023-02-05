@@ -683,10 +683,6 @@ video {
   right: 1rem;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -722,14 +718,14 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .ml-96 {
@@ -756,32 +752,32 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-0\.5 {
-  margin-top: 0.125rem;
-}
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .ml-1 {
   margin-left: 0.25rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
 }
 
 .block {
@@ -838,10 +834,6 @@ video {
   height: 1rem;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -870,6 +862,10 @@ video {
   width: 8rem;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -880,10 +876,6 @@ video {
 
 .w-5 {
   width: 1.25rem;
-}
-
-.w-20 {
-  width: 5rem;
 }
 
 .transform {
@@ -964,16 +956,6 @@ video {
   background-color: transparent;
 }
 
-.bg-zinc-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
-}
-
-.bg-stone-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -985,14 +967,6 @@ video {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-0\.5 {
-  padding: 0.125rem;
-}
-
-.p-0 {
-  padding: 0px;
 }
 
 .p-5 {
@@ -1029,16 +1003,6 @@ video {
   padding-right: 0.5rem;
 }
 
-.py-0\.5 {
-  padding-top: 0.125rem;
-  padding-bottom: 0.125rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1052,14 +1016,6 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .text-center {
@@ -1105,14 +1061,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-zinc-500 {
-  --tw-text-opacity: 1;
-  color: rgb(113 113 122 / var(--tw-text-opacity));
-}
-
 .text-slate-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+.text-zinc-500 {
+  --tw-text-opacity: 1;
+  color: rgb(113 113 122 / var(--tw-text-opacity));
 }
 
 .underline {
