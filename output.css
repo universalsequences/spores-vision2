@@ -968,6 +968,11 @@ video {
           flex-direction: column;
 }
 
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .items-start {
   -webkit-box-align: start;
       -ms-flex-align: start;
