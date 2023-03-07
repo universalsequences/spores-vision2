@@ -899,6 +899,14 @@ video {
   height: 16rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-44 {
+  height: 11rem;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1092,6 +1100,10 @@ video {
 
 .p-0 {
   padding: 0px;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-14 {
