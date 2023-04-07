@@ -865,6 +865,10 @@ video {
   margin-top: 0.25rem;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
 .block {
   display: block;
 }
@@ -943,6 +947,10 @@ video {
   height: 0px;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1001,6 +1009,10 @@ video {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .flex-1 {
